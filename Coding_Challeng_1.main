@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(){
+    int a,b,c;
+    printf("Enter the following number,a:"\n);
+    scanf("%d", &a);
+    printf("Enter the following number,b:"\n);
+    scanf("%d", &b);
+    if( a > b ){
+        c = a;
+    }
+    else{
+        c = b;
+    }
+    printf("The number C is Awesome %d",c);
+return 0;
+}
