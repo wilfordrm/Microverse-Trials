@@ -12,6 +12,6 @@ int main(){
     else{
         c = b;
     }
-    printf("The number C is Awesome %d",c);
+    printf("The number C is Awesome %d",c);//Thus all
 return 0;
 }
